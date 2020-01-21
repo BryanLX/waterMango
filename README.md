@@ -1,10 +1,10 @@
 # waterMango
 To run this project, make sure you have .net core sdk and node.js installed on your computer 
 
-Then start api project : 1.  open up a terminal and run "cd plantAPI/plantAPI" <p>
+Then start api project : <p> 1.  open up a terminal and run "cd plantAPI/plantAPI" <p>
                          2.  run "dotnet run"      <p>
                          
-Then start ui project  : 1. open another terminal and go to the root of project .  <p>
+Then start ui project  : <p> 1. open another terminal and go to the root of project .  <p>
                          2. run "cd plantApp" .  <p>
                          3. run "npm update" .  <p>
                          4. run "ng serve" .  <p>
