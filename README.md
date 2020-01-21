@@ -1,14 +1,14 @@
 # waterMango
 To run this project, make sure you have .net core sdk and node.js installed on your computer 
 
-Then start api project : 1.  open up a terminal and run "cd plantAPI/plantAPI"
-                         2.  run "dotnet run"
+Then start api project : 1.  open up a terminal and run "cd plantAPI/plantAPI" <p>
+                         2.  run "dotnet run"      <p>
                          
-Then start ui project  : 1. open another terminal and go to the root of project
-                         2. run "cd plantApp"
-                         3. run "npm update"
-                         4. run "ng serve"
-
+Then start ui project  : 1. open another terminal and go to the root of project .  <p>
+                         2. run "cd plantApp" .  <p>
+                         3. run "npm update" .  <p>
+                         4. run "ng serve" .  <p>
+ 
 Then go to your browser http://localhost:4200/ you should be able to see the site running.
 
 
