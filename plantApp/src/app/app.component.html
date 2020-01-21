@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+    <span>Watermango app</span>
+</mat-toolbar>
+
+<div class="period-setting">
+    Alert me if a plant hasn’t been watered for more than <input type="number" matInput placeholder="5" [(ngModel)]="period"> minitues.
+</div>
+
+
+<mat-divider></mat-divider>
+<mat-list style="display:flex; flex-wrap: wrap;">
+    <app-plant-detail *ngFor="let plantDetail of plants" [plantName]="plantDetail.name" [plantDescription]="plantDetail.instructions" [photoUrl]="plantDetail.photo" [period]="period"></app-plant-detail>
+</mat-list>

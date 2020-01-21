@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/binliu/Documents/plantApp/plantAPI/plantAPI/plantAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/binliu/Documents/plantApp/plantAPI/plantAPI/plantAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/binliu/Documents/plantApp/plantAPI/plantAPI/plantAPI.csproj",
+        "projectName": "plantAPI",
+        "projectPath": "/Users/binliu/Documents/plantApp/plantAPI/plantAPI/plantAPI.csproj",
+        "packagesPath": "/Users/binliu/.nuget/packages/",
+        "outputPath": "/Users/binliu/Documents/plantApp/plantAPI/plantAPI/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/binliu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

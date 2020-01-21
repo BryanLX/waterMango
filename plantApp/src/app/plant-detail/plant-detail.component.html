@@ -1,0 +1,22 @@
+<mat-card class="plant-card">
+    <mat-card-header>
+      <mat-card-title>{{plantName}} </mat-card-title>
+      <mat-card-subtitle style="width:350px;">Watering status: {{wateringStatus}}  {{wateringTimestamp? wateringTimestamp.toString():''}}
+        <mat-progress-bar *ngIf="wateringInProgress"
+        [mode]="mode"
+        [value]="value">
+        </mat-progress-bar>
+      </mat-card-subtitle>
+      
+    </mat-card-header>
+    <img mat-card-image style='height: 300px;' [src]='photoUrl'>
+    <mat-card-content>
+      <p>
+        {{plantDescription}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button (click)='startWatering()'>Start Watering</button>
+      <button mat-button (click)='stopWatering()'>Stop Watering</button>
+    </mat-card-actions>
+</mat-card>
